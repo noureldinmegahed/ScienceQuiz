@@ -1,0 +1,61 @@
+<head>
+<link rel="stylesheet" href="assets/style/style.css">
+<script src= "assets/script/script.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body id="bodyselection">
+<div id="text">
+    <p id="Phrase">من نجاح الى نجاح ان شاء الله</p>
+</div>
+<div id="container1">
+    <p class="mainquestion">إختياري</p>
+<div id="d1">
+    <p class="question">الشمس مصدر دائم</p>
+    <button class="answers1" onclick="submit1(this)">للطاقة</button>
+    <button class="answers1" onclick="submit1(this)">للحرارة</button>
+    <button class="answers1" onclick="submit1(this)">الإثنين معا</button>  
+</div>
+<div id="d2">
+    <p class="question">الحرارة في السوائل تنتقل بـ</p>
+    <button class="answers2" onclick="submit2(this)">الإشعاع</button>
+    <button class="answers2" onclick="submit2(this)">الحمل</button>
+    <button class="answers2" onclick="submit2(this)">التوصيل</button>
+</div>
+<div id="d3">  
+    <p class="question">= قانون الكتلة</p>
+    <button class="answers3" onclick="submit3(this)">الكثافة*الحجم</button>
+    <button class="answers3" onclick="submit3(this)">الكثافة*الكتلة</button>
+    <button class="answers3"  onclick="submit3(this)">الكتلة/الحجم</button> 
+</div>
+<div id="d4">
+    <p class="question">العنكبوت يصنف من</p>
+    <button class="answers4" onclick="submit4(this)">العنكبوتيات</button>
+    <button class="answers4" onclick="submit4(this)">الحشرات</button>
+    <button class="answers4"  onclick="submit4(this)">الزواحف</button>
+</div>
+</div>
+    <p class="mainquestion">إختياري مع إمكانية إختيار إجابتين</p>
+<div class="choice">
+    <p class="question">الشمس مصدر حياة لـ</p>
+    <button class="cc"><img class="circle" onclick="changeimg1s(this)" src="assets/images/notselected.svg"><p class="cs">الإنسان</p></button><br>
+    <button class="cc"><img class="circle" onclick="changeimg2s(this)" src="assets/images/notselected.svg"><p class="cs">النبات</p></button><br>
+    <button class="cc"><img class="circle" onclick="changeimg3s(this)" src="assets/images/notselected.svg"><p class="cs">السفن</p></button><br>
+    <button class="cc"><img class="circle" onclick="changeimg4s(this)" src="assets/images/notselected.svg"><p class="cs">القوارب</p></button><br>
+    <button id="submit" onclick="answers()">Submit</button>
+</div>
+
+<div class="choice">
+    <p class="question">من كواكب المجموعة الشمسية الخارجية</p>
+    <button class="cc"><img class="circleg" onclick="changeimg1g(this)" src="assets/images/notselected.svg"><p class="cs">المشترى</p></button><br>
+    <button class="cc"><img class="circleg" onclick="changeimg2g(this)" src="assets/images/notselected.svg"><p class="cs">المريخ</p></button><br>
+    <button class="cc"><img class="circleg" onclick="changeimg3g(this)" src="assets/images/notselected.svg"><p class="cs">نبتون</p></button><br>
+    <button class="cc"><img class="circleg" onclick="changeimg4g(this)" src="assets/images/notselected.svg"><p class="cs">الزهرة</p></button><br>
+<script>   
+     document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+g});
+</script>
+    <button id="submitg" onclick="answersg()">Submit</button>
+</div>
+</body>

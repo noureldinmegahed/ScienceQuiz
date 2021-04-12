@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" href="assets/style/style.css">
+<script src="assets/script/script.js"></script>
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">        
+</head>
+<body>
+    <div id="top">
+        <p id="Phrase">من نجاح الى نجاح ان شاء الله</p>
+    </div>
+    <div>
+        <p id="question">: اختر اللإجابة الصحيحة</p>
+    </div>
+    <div id="conatiner">
+        <div id="incontainer">
+    <div id="choices">
+    <div id="inchoices">
+        <p id="false">خطـأ</p>
+        <p id="true">صحيح</p><br>
+        <button class="c"><img id="a2" onclick="changeimg1(this,'a1')" class="circle b " src="assets/images/notselected.svg"></button>
+        <button class="ca"><img id="a1" onclick="changeimg1(this,'a2')" class="circle b" src="assets/images/notselected.svg"></button><br>
+        <button class="c"><img id="c2" onclick="changeimg2(this,'c1')" class="circle d " src="assets/images/notselected.svg"></button>
+        <button class="ca"><img id="c1" onclick="changeimg2(this,'c2')" class="circle d" src="assets/images/notselected.svg"></button><br>
+        <button class="c"><img id="e2" onclick="changeimg3(this,'e1')" class="circle f " src="assets/images/notselected.svg"></button>
+        <button class="ca"><img id="e1" onclick="changeimg3(this,'e2')" class="circle f" src="assets/images/notselected.svg"></button><br>        
+        <button class="c"><img id="g2" onclick="changeimg4(this,'g1')" class="circle h " src="assets/images/notselected.svg"></button>
+        <button class="ca"><img id="g1" onclick="changeimg4(this,'g2')" class="circle h" src="assets/images/notselected.svg"></button><br>
+        <button class="c"><img id="i2" onclick="changeimg5(this,'i1')" class="circle j " src="assets/images/notselected.svg"></button>
+        <button class="ca"><img id="i1" onclick="changeimg5(this,'i2')" class="circle j" src="assets/images/notselected.svg"></button><br>     
+    </div>
+    </div>
+    <div id="questionsTrueOrFalse">
+        <p class="questionsTF">1-البوتاسيوم من الفلزات النشطة جدا</p>
+        <p class="questionsTF">2-تمتلك السلحفاة 15 سنا في فكيها</p>
+        <p class="questionsTF">3-الطاقة الميكانيكية= مجموع طاقتي الوضع ومربع السرعة</p>
+        <p class="questionsTF">4-الدايونيا من النباتات المفترسة</p>
+        <p class="questionsTF">5-الرمز الخاص بعنصر النحاس هو Cu</p>
+    </div>
+</div>
+</div>
+<button id="s" onclick="submit()">Submit</button>
+<script>
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+</script>
+</body>

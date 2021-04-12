@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+  <script src="assets/script/jquery.js"></script>
+</head>
+<body>
+  <div id="top">
+    <p id="Phrase">من نجاح الى نجاح ان شاء الله</p>
+</div>
+<div class="svgContainer" style="margin: 50px 50px;">
+    <svg id="svg1" width="0" height="0" >
+          <path
+            id="path4"
+            d="M0 0"    
+            stroke-width="0"         
+            style="stroke:rgb(223, 6, 6); fill:none; transition: stroke-width 0.3s ease-in;" />
+            <path
+            id="path5"
+            d="M0 0"    
+            stroke-width="0"         
+            style="stroke:rgb(35, 219, 50); fill:none; transition: stroke-width 0.3s ease-in;"/>
+          <path
+            id="path6"
+            d="M0 0"    
+            stroke-width="0"         
+            style="stroke:rgb(251, 255, 0); fill:none; transition: stroke-width 0.3s ease-in;"/>
+    </svg>
+</div>
+<h2 style="text-align: center;">
+  اختر من أ ما يناسبه من ب
+</h2>
+<div id= "outer">
+  <div class="left">
+    <div style="float: right;position: absolute;right: 100px;border-radius: 50%; border: black solid; width: 50px; height: 50px;text-align: center;">
+      <p>أ</p>
+    </div>
+    <div id="teal" class="box" onclick="add(this)">
+    الثعلب
+    </div>
+    <div id="red" class="box" onclick="add(this)">
+    الكلب
+    </div>
+    <div id="green" class="box" onclick="add(this)">
+    الجمل
+  </div>
+  </div>
+  <div class="right">
+    <div style="float: right;position: absolute;right: 100px;border-radius: 50%; border: black solid; width: 50px; height: 50px;text-align: center;">
+      <p>ب</p>
+    </div>
+    <div id="purple" class="box" onclick="add(this)">
+    الوفي</div>
+    <div id="orange" class="box" onclick="add(this)">
+    سفينة الصحراء</div>
+    <div id="aqua" class="box" onclick="add(this)">
+    المكار
+  </div>  
+  </div>
+</div>
+<button id="back" onclick="window.location=''">الرجوع في الإجابة</button>
+<script src="assets/script/script.js"></script>
+</body>
+</html>

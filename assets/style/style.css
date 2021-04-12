@@ -1,0 +1,358 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url("../fonts/Cairo-Regular.ttf")
+}
+/* interface */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'myFont';
+    outline: none;
+}
+#selectionbody{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://blog.certainteed.com/wp-content/uploads/2018/08/modern-school-building.jpg);
+    background-repeat: no-repeat;
+}
+button{
+    outline: none;
+}
+#logo{
+    width: 190px;
+    height: 120px;
+    text-align: left;
+}
+#top{
+    background-color: #ffffff;
+    height: 13%;
+    width: 100%;
+    z-index: 1 ;
+}
+#intop{
+    text-align: left;
+}
+#logo,#txtlogo{
+    display: inline-block;
+}
+#txtlogo{
+    font-size: 36px;
+    color: #5793ca;
+    position: relative;
+    top: -53px;
+    left: -55px;
+}
+
+.address{
+    text-align: center;
+    font-size: 65px;
+    position: relative;
+    top: 85px;
+    color: #ffffff;
+    
+}
+.address2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+    color: #ffffff;   
+}
+#pages{
+    text-align: center;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-top: 25px;
+}
+.log{
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.log:hover{
+    background-color: #242424;
+    color: #ffffff;
+    transition: 0.2s;
+}
+#by{
+    width: 100%;
+    background-color: #848484;
+    padding: 17px 0;
+}
+#p{
+    text-align: left;
+    padding-left:10px ;
+}
+.aForIndex{
+    text-decoration: none;
+}
+/* Selection */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 17px;
+}
+#bodyselection{
+    direction: rtl;
+}
+button{
+    background-color: transparent;
+}
+#phrase{
+    text-align: center;
+    font-size: 27px;
+}
+.question{
+    font-size: 25px;
+    color: #708A81;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+.answers1{
+    padding: 5px 10px;
+    background-color: #DD8E58;
+    border: #E5D1B8 1px solid;
+}
+.answers2{
+    padding: 5px 10px;
+    background-color: #DD8E58;
+    border: #E5D1B8 1px solid;
+}
+.answers3{
+    padding: 5px 10px;
+    background-color: #DD8E58;
+    border: #E5D1B8 1px solid;
+}
+.answers4{
+    padding: 5px 10px;
+    background-color: #DD8E58;
+    border: #E5D1B8 1px solid;
+}
+#d1{
+    margin-right: 20px;
+}
+#d2{
+    margin-right: 20px;
+}
+#d3{
+    margin-right: 20px;
+}
+#d4{
+    margin-right: 20px;
+}
+#container1{
+    margin-top: 70px;
+}
+.correct{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+.answers1g2{
+    background-color: transparent;
+}
+.choice{
+    position: relative;
+    top: 25px;
+    right: 35px;
+}
+.mainquestion{
+    color: #000000;
+    font-size: 25px;
+    margin-right: 20px; 
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 20px
+}
+.cs{
+    position: relative;
+    right: 80px;
+    top: -35px;
+    font-size: 17px;
+}
+#submit{
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#submit:hover{
+    background-color: #474747;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.circleg{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 20px
+}
+.cg{
+    position: relative;
+    right: 80px;
+    top: -35px;
+    font-size: 17px;
+}
+#submitg{
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#submitg:hover{
+    background-color: #474747;
+    color: #ffffff;
+    transition: 0.3s;
+}
+#submit,#submitg{
+    margin-right: 570px;
+}
+
+/* True or False */
+#inchoices{
+    text-align: center;
+}
+button{
+    background-color: transparent;
+}
+#Phrase{
+    text-align: center;
+    font-size: 25px;
+}
+#question{
+    text-align: right;
+    font-size: 17px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+}
+#choices{
+    text-align: right;
+    display: inline-block;
+}
+#true{
+    display: inline-block;
+    margin-right: 10px;
+}
+#false{
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+#trueAndFalse{
+    width: 100%;
+}
+#trueAndFalseIn{
+    text-align: center;
+}
+.questionsTF{
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+}
+#questionsTrueOrFalse{
+    display: inline-block;
+    width: 60%;
+}
+#s{
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 500px;
+}
+#s:hover{
+    background-color: #3b3b3b;
+    color: #ffffff;
+    transition: 0.3s;
+}
+#incontainer{
+    text-align: right;
+}
+/* Complete */
+#completeBody{
+    direction: rtl;
+} 
+#input{
+    display: inline-block;
+}
+#inputanswer1,#inputanswer2,#inputanswer3,#inputanswer4,#inputanswer5{
+    border: black solid 2px;
+    border-radius: 7px;
+    width: 100px;
+    padding-right: 5px;
+}
+#inputt{
+    display: inline-block;
+}
+.dg{
+    margin-top: 25px;
+}
+#nene{
+    font-size: 40px;
+}
+/* Ailments */
+#bodyailments{
+    direction: rtl;
+}
+#questionofailments1{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.inputailments{
+    width: 300px;
+    border: black solid 1px;
+    margin: 10px;
+}
+#activefunc{
+    width: 30px;
+    height: 30px;
+}
+#any{
+    visibility:hidden;
+}
+.circleali{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 20px
+}
+/* Matching */
+body{ background-color:white; }
+
+.svgContainer { 
+	z-index: -10;
+	position:absolute;
+	background-color:white;
+}
+#outer{
+	margin:0 auto;
+	width: 80%;
+}
+.box{
+	margin:100px 0;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	width: 25% !important;
+	background-color: coral !important;
+	height: 50px !important;
+}
+.right, .left{
+	display: block;
+	width: 100%;
+}
+#back{
+    float: right;
+    /* border: black; */
+    border: black solid 2px;
+    padding: 5px;
+}
