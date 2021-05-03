@@ -344,8 +344,6 @@ function add(elem){
         firstelement = "#"+elem.id;
         elem.style.border="black solid 4px"
     }
-    console.log(firstelement)
-    console.log(secondelement)
     if(firstelement!==undefined&&secondelement!==undefined){
         connectElements($("#svg1"), $("#path6"), $(firstelement),   $(secondelement));
     }
